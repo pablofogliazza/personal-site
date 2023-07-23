@@ -35,7 +35,7 @@ const Nav = () => {
         <a
           key={index}
           href={item.url}
-          className="py-8 lowercase text-[15px] border-b-2 border-transparent"
+          className="py-8 lowercase text-[15px] border-b-2 border-t-2 border-transparent hover:border-b-caccent"
         >
           {item.name}
         </a>

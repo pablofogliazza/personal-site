@@ -15,7 +15,7 @@ module.exports = {
       },
       colors: {
         caccent: '#42BBA1',
-        clight: '##F3F8F9',
+        clight: '#F3F8F9',
         cdark: '#1B2025',
       },
       fontFamily: {
