@@ -19,7 +19,7 @@ module.exports = {
         cdark: '#1B2025',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Satoshi', 'sans-serif'],
         serif: ['p22-mackinac-pro', 'serif'],
       },
     },
