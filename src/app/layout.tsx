@@ -2,6 +2,12 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+import localFont from 'next/font/local'
+
+const satoshi = localFont({
+  src: '../fonts/Satoshi-Variable.woff2',
+})
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -25,7 +31,6 @@ export const metadata: Metadata = {
   },
 }
 
-
 export default function RootLayout({
   children,
 }: {
@@ -36,7 +41,7 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/fli3bzs.css" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={satoshi.className}>{children}</body>
     </html>
   )
 }
