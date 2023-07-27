@@ -61,7 +61,7 @@ const WorkExperiencie = () => {
                       width={24}
                       height={24}
                       fill="none"
-                      className="stroke-clight/50"
+                      className="flex-shrink-0 stroke-clight/50"
                     >
                       <path
                         stroke="currentColor"
