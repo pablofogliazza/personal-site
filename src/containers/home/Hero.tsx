@@ -3,12 +3,12 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className="w-100 border-b bg-cdark text-clight border-caccent/[.10]">
-      <div className="container mx-auto py-24 grid grid-cols-2">
+      <div className="container grid grid-cols-2 gap-4 py-24 mx-auto">
         <div className="flex flex-col gap-7">
           <p className="uppercase font-bold text-caccent text-[15px] tracking-widest">
             Hello, my name is Pablo
           </p>
-          <p className="font-serif font-black text-5xl leading-none">
+          <p className="font-serif text-5xl font-black leading-none">
             UI Designer & <br />
             Front-end Developer
             <span className="text-caccent">.</span>
@@ -17,7 +17,7 @@ const Hero = () => {
             Web developer with 17+ years of experience specializing in
             converting design into code.
           </p>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <button className="inline-block py-4 px-8 rounded-full bg-clight text-[14px] leading-none font-bold tracking-wide uppercase text-cdark hover:bg-caccent">
               Download Resume
             </button>
