@@ -12,14 +12,14 @@ const WorkExperiencie = () => {
   }
 
   const work: Work[] = [
-    {
-      id: 1,
-      company: 'Estudio Árbol',
-      position: 'Co-founder',
-      dateStart: 'January 2013',
-      dateEnd: 'December 2016',
-      image: '/arbol.jpg',
-    },
+    // {
+    //   id: 1,
+    //   company: 'Estudio Árbol',
+    //   position: 'Co-founder',
+    //   dateStart: 'January 2013',
+    //   dateEnd: 'December 2016',
+    //   image: '/arbol.jpg',
+    // },
     {
       id: 2,
       company: 'Freelance',
@@ -39,29 +39,29 @@ const WorkExperiencie = () => {
   ]
 
   return (
-    <div className="w-100 border-b bg-cdark text-clight border-caccent/[.10]">
+    <div className="border-b w-100 bg-shark-950 text-puerto-rico-50 border-shark-900">
       <div className="container py-12 mx-auto">
-        <p className="uppercase font-bold text-caccent text-[15px] tracking-widest">
+        <p className="uppercase font-bold text-puerto-rico-400 text-[15px] tracking-widest">
           work experience
         </p>
-        <div className="grid grid-cols-3 gap-4 py-4">
+        <div className="grid grid-cols-2 gap-4 py-4">
           {work
             .map((item) => (
               <div
                 key={item.id}
-                className="flex items-center gap-4 p-5 bg-clight/5 rounded-[30px] border border-clight/5"
+                className="flex items-center gap-4 p-5 bg-shark-900/50 rounded-[30px] border border-shark-800"
               >
-                <div className="w-[115px] rounded-[15px] overflow-hidden flex-shrink-0 shadow-lg shadow-cdark">
+                <div className="w-[115px] rounded-[15px] overflow-hidden flex-shrink-0 shadow">
                   <Image src={item.image} alt="" width={115} height={115} />
                 </div>
                 <div className="flex flex-col flex-grow gap-3">
-                  <div className="flex items-center gap-1 font-sans text-clight/50 text-[14px] tracking-wide">
+                  <div className="flex items-center gap-1 font-sans text-shark-500 font-medium text-[14px] tracking-wide">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
                       height={24}
                       fill="none"
-                      className="flex-shrink-0 stroke-clight/50"
+                      className="flex-shrink-0 stroke-shark-500"
                     >
                       <path
                         stroke="currentColor"
@@ -81,14 +81,14 @@ const WorkExperiencie = () => {
                     </svg>
                     {item.dateStart} &mdash; {item.dateEnd}
                   </div>
-                  <div className="font-serif text-clight text-[24px] font-black leading-[1.2]">
+                  <div className="font-serif text-puerto-rico-50 pl-1 text-[26px] font-black leading-[1.2]">
                     {item.position}{' '}
                     <span className="font-light">
                       <br />
                       at
                     </span>{' '}
                     {item.company}
-                    <span className="text-caccent">.</span>
+                    <span className="text-puerto-rico-400">.</span>
                   </div>
                 </div>
                 <div className="flex-shrink-0">
@@ -98,11 +98,11 @@ const WorkExperiencie = () => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
+                    className="flex-shrink-0 stroke-shark-500"
                   >
                     <g opacity="0.7">
                       <path
                         d="M14.43 5.92999L20.5 12L14.43 18.07"
-                        stroke="#F3F8F9"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
                         stroke-linecap="round"
@@ -110,7 +110,6 @@ const WorkExperiencie = () => {
                       />
                       <path
                         d="M3.5 12H20.33"
-                        stroke="#F3F8F9"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
                         stroke-linecap="round"
