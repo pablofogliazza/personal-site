@@ -36,15 +36,14 @@ const Footer = () => {
       <div className="container flex items-center justify-between mx-auto">
         <p className="text-sm font-semibold text-shark-500">
           &copy; 2006 &mdash; 2023 &middot; Working for the better web.
+          <br />
+          Last updated {commit.date} &rarr; {commit.message}
         </p>
 
         <p
           className="text-sm font-semibold text-right text-shark-500"
           key={commit.date}
-        >
-          Last update: {commit.date}.<br />
-          {commit.message}
-        </p>
+        ></p>
       </div>
     </div>
   )
