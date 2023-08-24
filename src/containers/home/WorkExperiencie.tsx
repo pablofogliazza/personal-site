@@ -94,28 +94,18 @@ const WorkExperiencie = () => {
                 <div className="flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
+                    width={20}
+                    height={14}
                     fill="none"
                     className="flex-shrink-0 stroke-shark-500"
                   >
-                    <g opacity="0.7">
-                      <path
-                        d="M14.43 5.92999L20.5 12L14.43 18.07"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M3.5 12H20.33"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </g>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeMiterlimit={10}
+                      strokeWidth={1.5}
+                      d="M12.43.93 18.5 7l-6.07 6.07M1.5 7h16.83"
+                    />
                   </svg>
                 </div>
               </div>
